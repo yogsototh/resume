@@ -1,13 +1,12 @@
 # Use this file to configure some general variables
 
-@title='\Huge{\textbf{Krambook}}\\\\\\' + "\n" +
-       '\small\textit{Write Books like an }'+
-       '\texttt{UB3R 1337}\textit{ (Hacker)}'
+@title='\Huge{\textbf{Yann Esposito}}\\\\\\' + "\n" +
+       '\small\textit{Expert en Machine Learning}'
 
 @author="Yann Esposito"
 
 # file name
-@pdfname="krambook"
+@pdfname="cv"
 
 # LaTeX headers (before \begin{document})
 @latex_headers=''
@@ -29,5 +28,5 @@
 # change the template file in case latex_headers is not enough 
 # Remember to not remove lines begining by %%#
 # look at include/template.tex for example
-@template_file="include/template.tex"
+@template_file="include/cv_template.tex"
 

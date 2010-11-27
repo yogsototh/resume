@@ -196,6 +196,7 @@ task :compile do
     require 'kramdown'
     require 'filters/markdown_macros'
     require 'filters/mkd_post_latex_macros'
+    require 'filters/star_section'
 
     class KrambookCompile
         require 'config.rb'
@@ -244,6 +245,7 @@ task :compile do
 
             @postfilters=[]
             @postfilters<<=MarkdownPostLatexMacros.new
+            @postfilters<<=StarSection.new
 
             @filelist=Dir.glob("content/**/*.md").sort.map do |fic|
                     [ fic, fic.sub(/^content\//,"tmp/").sub(/.md$/,".tex") ]

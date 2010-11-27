@@ -18,7 +18,7 @@
 
 # Use colors
 @latex_headers<<='\usepackage{color}
-                \definecolor{italiccolor}{rgb}{0.4,0.4,0.4}
+                \definecolor{italiccolor}{rgb}{0.6,0.6,0.6}
                 \definecolor{boxcolor}{rgb}{0.96,0.96,0.96}'
 
 # Make italic and emphasis text gray

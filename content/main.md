@@ -218,7 +218,7 @@ Matériel
 
 ## Moniteur des Universités, Université de Provence, Marseille _10/2001-9/2004_
 
-1/3 d'enseignement, 1/3 de recherche, 1/3 de développement.
+$1/3$ d'enseignement, $1/3$ de recherche, $1/3$ de développement.
 
 ### Enseignement _Bac +1 à Bac +2_
 
@@ -229,7 +229,7 @@ Matériel
 - Internet et Bases de Données (PHP/MySQL),
 - Apprentissage automatique (Master 1)
 
-### recherche 
+### Recherche 
 
 Machine Learning, statistiques, Hidden Markov Models, bio-informatique
 

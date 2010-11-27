@@ -86,7 +86,7 @@ task :html do
             end
 
             # compile to latex
-            tmp=Kramdown::Document.new(tmp, :latex_headers => %w(chapter section subsection paragraph subparagraph subsubparagraph)).to_html
+            tmp=Kramdown::Document.new(tmp, :latex_headers => %w(chapter* section* subsection* paragraph* subparagraph* subsubparagraph*)).to_html
 
             # post filters
             @postfilters.each{ |f| tmp=f.run(tmp) }

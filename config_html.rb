@@ -1,8 +1,7 @@
 # Use this file to configure some general variables
 
-@title=%{Krambook}
-@subtitle=%{<span class="small">Write Books like an
-       <code>UB3R 1337</code> <em>(Hacker)</em></span>}
+@title=%{<span style="font-size:.3em"><em>Curriculum Vitæ</em></span><br/>Yann Esposito}
+@subtitle=%{<span class="small"><em>Expert en Machine Learning</em></span>}
 
 @author="Yann Esposito"
 

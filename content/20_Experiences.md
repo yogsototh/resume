@@ -1,42 +1,47 @@
 # Expérience
 
-## _2010_ Développeur Freenlance pour GridPocket
+## Freelance pour GridPocket _2010 &rarr;_ 
+
+Sophia Antipolis, France
 
 Mission 
 : Création de l’architecture serveur d’une application mobile. 
+: Création d'une application iPhone
 
 Rôle
-: Conception, Organisation, Développement, Tests et Installation de la solution serveur.
+: Conception, Organisation, Développement, Tests et Installation de la solution serveur/mobile.
 
 Technologies utilisées
-: Ruby, REST, JSON, HTML, CSS, Javascript, AJAX, jQuery
+: Ruby, REST, JSON, HTML, CSS, Javascript, AJAX, jQuery, Objective-C
 
-## _2007_ Consultant Astek en mission pour AirFrance, Sophia Antipolis
+## AirFrance _2007 &rarr;_ 
+
+Consultant Astek en mission chez AirFrance à Sophia Antipolis
 
 Mission 
 : Gestion de l’outil interne d’AirFrance de Gestion de contenu WEB.  Cet outil interne basé sur TeamSite permet de gérer la contribution des auteurs, la validation par des éditeurs ainsi que les déploiements du site vers les serveurs de productions.
 
 Projets spécifiques:
 
-- GPNet _3 mois_
-  - Refonte du site intranet GPNet d’AirFrance pour utiliser les standards modernes
-  - XHTML, Javascript, CSS
-- JTS _9 mois_ 
-  - Transformation complète du site airfrance.biz en vue de l’intégration de celui-ci dans le système CMS de KLM. 
-  - Modification de masse des templates à l’aide de scripts shell et awk.
-
-- Wadis v2 _juillet 2008_ 
-  - Transformation complète du look and feel du site `airfrance.biz`. 
-  - Ajout de nombreuses fonctionnalités. Maintenance et améliorations depuis juillet 2009.
-  - Création de nouveaux pays notamment `NL`, mais aussi des marchés utilisant des langues exotiques comme le japonais et le coréen. 
+> - GPNet _3 mois_
+>   - Refonte du site intranet GPNet d’AirFrance pour utiliser les standards modernes
+>   - XHTML, Javascript, CSS
+> - JTS _9 mois_ 
+>   - Transformation complète du site airfrance.biz en vue de l’intégration de celui-ci dans le système CMS de KLM. 
+>   - Modification de masse des templates à l’aide de scripts shell et awk.
+> 
+> - Wadis v2 _juillet 2008_ 
+>   - Transformation complète du look and feel du site `airfrance.biz`. 
+>   - Ajout de nombreuses fonctionnalités. Maintenance et améliorations depuis juillet 2009.
+>   - Création de nouveaux pays notamment `NL`, mais aussi des marchés utilisant des langues exotiques comme le japonais et le coréen. 
 
 Developpements Transverses :
 
-- Amélioration des développements internes d’AirFrance relatif aux déploiements vers les serveurs de productions ainsi qu’au fonctionnement du CMS (Perl, Workflow Teamsite ; XML)
-
-- Intégration d’un système de versionning moderne (Bazaar DCVS) pour la gestion des développements internes AirFrance.
-- Maintenance du système CMS dans son ensemble. 
-- Création d’un script automatisant l’alimentation des données entre différents environnements
+> - Amélioration des développements internes d’AirFrance relatif aux déploiements vers les serveurs de productions ainsi qu’au fonctionnement du CMS (Perl, Workflow Teamsite ; XML)
+> 
+> - Intégration d’un système de versionning moderne (Bazaar DCVS) pour la gestion des développements internes AirFrance.
+> - Maintenance du système CMS dans son ensemble. 
+> - Création d’un script automatisant l’alimentation des données entre différents environnements
  
 Technologies utilisées
 : TeamSite, Perl, XML, XHTML, CSS, javascript, JSP, Unix (Solaris/Linux), Bazaar
@@ -46,23 +51,30 @@ Environnement
 
 
 
-## _10/2006 - 3/2007_ Post Doctorat, Université Jean Monnet, Laboratoire Hubert Curien, Saint-Etienne
+## Post Doctorat _10/2006 &rarr; 3/2007_ 
 
-### Développement
+Université Jean Monnet, Laboratoire Hubert Curien, Saint-Etienne
 
-application lourde en JAVA: _11 000 lignes commentaires javadoc compris_
+Mission
+: Développer une application à destination de biologistes.
 
-Principales fonctionnalités
+Développement
 
-- apprentissage de matrices de coûts d'éditions,
-- calcul de distance d'édition entre arbres ou séquences de caractères,
-- visualisation d'arbres ou de séquences (JAVA 2D),
-- classification en utilisant les K plus proches voisins,
-- Génération d'échantillons de couples d'arbres,
+> application lourde en JAVA: _11 000 lignes commentaires javadoc compris_
+> 
+> Principales fonctionnalités
+> 
+> - apprentissage de matrices de coûts d'éditions,
+> - calcul de distance d'édition entre arbres ou séquences de caractères,
+> - visualisation d'arbres ou de séquences (JAVA 2D),
+> - classification en utilisant les K plus proches voisins,
+> - Génération d'échantillons de couples d'arbres,
+> 
+> Des captures d’écran sont aussi disponibles à l'adresse suivante : [www.lif.univ-mrs.fr/~esposito/sedil.php](http://www.lif.univ-mrs.fr/~esposito/sedil.php?lang=fr)
 
-Des captures d’écran sont aussi disponibles à l'adresse suivante : [www.lif.univ-mrs.fr/~esposito/sedil.php](http://www.lif.univ-mrs.fr/~esposito/sedil.php?lang=fr)
+Recherche scientifique
 
-### Recherche scientifique    mesures de similarité entre séquences ou entre arbres XML
+> mesures de similarité entre séquences ou entre arbres XML
 
 Contact
 : [Marc Sebban](mailto://marc.sebban@univ-st-etienne.fr)
@@ -74,11 +86,13 @@ Environnement
 : Mac OS X, Linux (Debian), Windows XP
 
 
-## Attaché Temporaire d’Enseignement et de Recherche, Université de Provence, Marseille _10/2004-9/2006_
+## ATER _10/2004 &rarr; 9/2006_ 
 
-1/2 enseignement, 1/6 recherche, 1/3 développement/maintenance `C++`
+Attaché Temporaire d’Enseignement et de Recherche à l'Université de Provence, Marseille
 
-### Enseignement _Bac+3 à Bac+5_
+_1/2 enseignement, 1/6 recherche, 1/3 développement/maintenance `C++`_
+
+Enseignement _Bac+3 à Bac+5_
 
 > Réseaux
 > : (Master 1) mise en place matérielle, programmation client-serveur, législation, Projet système d’anonymat (routage en oignons comme TOR) (langages de programmation C, Python + outils shell)
@@ -101,76 +115,79 @@ Environnement
 > TER
 > : Encadrement d'un projet d'étude et de recherche à des Master 1 (Multi-agent)
 
-### Recherche
+Recherche
 
-Machine Learning, Modèles de Markov, Automates à Multiplicité
+> Machine Learning, Modèles de Markov, Automates à Multiplicité
 
-### Développement/maintenance
+Développement/maintenance
 
-Application écrite en C++ _7 500 lignes, 10 000 avec les commentaires_
+> Application écrite en C++ _7 500 lignes, 10 000 avec les commentaires_
+> 
+> Principales fonctionnalités :
+> 
+> - Inférence d'automates à multiplicité,
+> - Inférence d'automates probabilistes résiduels (inférence de Chaînes de Markov cachées ; apprentissage des paramètres et de la structure),
+> - Inférence d'automates probabilistes déterministes,
+> - Algorithme de Baum Welch (Apprentissage des paramètres d'un HMM à partir d'un échantillon de séquences),
+> - Exportation au format GraphViz,
+> - Génération d'échantillons à partir d'un MA,
+> 
+> Langages
+> : C++
+> 
+> API
+> : STL
+> 
+> Matériel
+> : environnement Linux (Debian) et Windows XP
 
-Principales fonctionnalités :
+## Moniteur des Universités _10/2001 &rarr; 9/2004_ 
 
-- Inférence d'automates à multiplicité,
-- Inférence d'automates probabilistes résiduels (inférence de Chaînes de Markov cachées ; apprentissage des paramètres et de la structure),
-- Inférence d'automates probabilistes déterministes,
-- Algorithme de Baum Welch (Apprentissage des paramètres d'un HMM à partir d'un échantillon de séquences),
-- Exportation au format GraphViz,
-- Génération d'échantillons à partir d'un MA,
+Université de Provence, Marseille 
 
-Langages
-: C++
+1/3 d'enseignement, 1/3 de recherche, 1/3 de développement.
 
-API
-: STL
+Enseignement _Bac +1 à Bac +2_
 
-Matériel
-: environnement Linux (Debian) et Windows XP
+> - Initiation à l'informatique (environnement UNIX, scripts shell, LOGO),
+> - Algorithmique,
+> - Stage de C,
+> - Soutien C++,
+> - Internet et Bases de Données (PHP/MySQL),
+> - Apprentissage automatique (Master 1)
 
-## Moniteur des Universités, Université de Provence, Marseille _10/2001-9/2004_
+Recherche 
 
-$1/3$ d'enseignement, $1/3$ de recherche, $1/3$ de développement.
+> Machine Learning, statistiques, Hidden Markov Models, bio-informatique
 
-### Enseignement _Bac +1 à Bac +2_
+Développement
 
-- Initiation à l'informatique (environnement UNIX, scripts shell, LOGO),
-- Algorithmique,
-- Stage de C,
-- Soutien C++,
-- Internet et Bases de Données (PHP/MySQL),
-- Apprentissage automatique (Master 1)
+> Développement d'une application en C++ _(10000 lignes de codes environ)_.
+> 
+> Principales fonctionnalités 
+> 
+> - Inférence d'automates à multiplicité,
+> - Inférence d'automates probabilistes résiduels (inférence de Chaînes de Markov cachées ; apprentissage des paramètres et de la structure), 
+> - Inférence d'automates probabilistes déterministes,
+> - Algorithme de Baum Welch (Apprentissage des paramètres d'un HMM à partir d'un échantillon de séquences),
+> - Exportation au format GraphViz, 
+> - Génération d'échantillons à partir d'un MA ...
+> 
+> Langages
+> : C++
+> 
+> API 
+> : STL
+> 
+> Environnement
+> : Linux (Debian) et Windows XP
 
-### Recherche 
+## Divers travaux d’été _1995 &rarr; 2000_ 
 
-Machine Learning, statistiques, Hidden Markov Models, bio-informatique
-
-### Développement
-
-Développement d'une application en C++ _(10000 lignes de codes environ)_.
-
-Principales fonctionnalités 
-
-- Inférence d'automates à multiplicité,
-- Inférence d'automates probabilistes résiduels (inférence de Chaînes de Markov cachées ; apprentissage des paramètres et de la structure), 
-- Inférence d'automates probabilistes déterministes,
-- Algorithme de Baum Welch (Apprentissage des paramètres d'un HMM à partir d'un échantillon de séquences),
-- Exportation au format GraphViz, 
-- Génération d'échantillons à partir d'un MA ...
-
-Langages
-: C++
-
-API 
-: STL
-
-Environnement
-: Linux (Debian) et Windows XP
-
-## _1995-2000_ Divers travaux d’été, environs de Marseille 
+Marseille et environs.
 
 - Eurocopter (un peu de Visual Basic pour automatiser des tâches sous Excel)
 - Nettoyage des canadairs à la sécurité civile
 - Pompiste à Naphtachimie
 - Caissier au Crédit Lyonnais
 - Divers emplois manœuvres
-

@@ -1,7 +1,8 @@
 # Use this file to configure some general variables
 
-@title='\Huge{\textbf{Yann Esposito}}\\\\\\' + "\n" +
-       '\small\textit{Expert en Machine Learning}'
+@title='\Large{\textit{Curriculum Vit\ae{}}}\\\\\\' + "\n" +
+       '\Huge{\textbf{Yann Esposito}}\\\\\\' + "\n" +
+       '\small\textit{Expert en Machine Learning}' + "\n"
 
 @author="Yann Esposito"
 

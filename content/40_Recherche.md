@@ -3,10 +3,10 @@
 ### Internationales 
 
 Journaux
-: [Fundamenta Inforamticæ vol. 86 2008] [Pattern Recognition, 2004]  
+: [Fundamenta&nbsp;Inforamticæ&nbsp;vol.&nbsp;86&nbsp;2008] [Pattern&nbsp;Recognition,&nbsp;2004]  
 
 Conférences
-: [ECML 2008] [COLT 2006] [ICGI 2006] [COLT 2004] [ICALP 2003] [ICGI 2002]
+: [ECML&nbsp;2008] [COLT&nbsp;2006] [ICGI&nbsp;2006] [COLT&nbsp;2004] [ICALP&nbsp;2003] [ICGI&nbsp;2002]
 
 Workshop
 : [TAGI05]
@@ -14,11 +14,11 @@ Workshop
 ### Nationales 
 
 Journaux
-: [JEDAI, 2003] 
+: [JEDAI,&nbsp;2003] 
 
 Conférences
-: [CAP 2006] [CAP 2004] [CAP 2003] 
+: [CAP&nbsp;2006] [CAP&nbsp;2004] [CAP&nbsp;2003] 
 
 Thèse
-: [Université de Provence 2004]
+: [Université&nbsp;de&nbsp;Provence&nbsp;2004]
 

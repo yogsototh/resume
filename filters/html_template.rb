@@ -40,6 +40,8 @@ class HTMLTemplate
             @homeURL
         end.gsub(%{<!-- HTML HEADERS -->}) do
             @html_headers
+        end.gsub(/(\d|\/)+\s*&rarr;(\s*(\d|\/)+)?/) do |m|
+            %{<span style="font-size:.5em">#{m}</span>}
         end
     end
 end

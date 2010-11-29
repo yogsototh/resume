@@ -16,7 +16,7 @@ Docteur en Informatique (expert en Machine Learning)
 # Connaissances Techniques
 
 Langages objets 
-: Ruby, Javascript, Perl, C++, Java, Python,  PHP, Objective-C
+: Ruby, Objective-C, Javascript, Perl, C++, Java, Python,  PHP
 
 Web
 : Ajax (xmlHTTPRequest, prototype.js, jQuery, scriptaculous...), XML, JSON Ruby (nanoc), PHP/MySQL, Python (Django), REST, SOAP, XML-RPC
@@ -25,7 +25,7 @@ Normes
 : HTML, XHTML, CSS, SVG
 
 Bibliothèques (API)
-: C++(STL), Java (Swing/Java 2D), Python (PySQLite, wxPython, crypto, socket), Objective-C (Cocoa, iOS, Core Data, Quartz Composer)
+: C++(STL), Java (Swing/Java 2D), Python (PySQLite, wxPython, crypto, socket), Objective-C (Cocoa, iOS, Core Data, Quartz Composer, Core Plot, ASI HTTP Request)
 
 Autres langages
 : C, camL
@@ -46,7 +46,7 @@ Outils de contrôle version
 : git, Bazaar (DCVS), subversion (svn), CVS
 
 Matériel et systèmes
-: Mac OS X, Unix/Linux (Solaris, Ubuntu, Debian), Windows XP  
+: Mac OS X, Unix/Linux (Solaris, Ubuntu, Debian), Windows&nbsp;XP  
 
 IHM
 : jQuery, scriptaculous, prototype.js, Java Swing, wxPython, Cocoa

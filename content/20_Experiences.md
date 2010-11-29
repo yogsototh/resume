@@ -12,7 +12,7 @@ Rôle
 : Conception, Organisation, Développement, Tests et Installation de la solution serveur/mobile.
 
 Technologies utilisées
-: Ruby, REST, JSON, HTML, CSS, Javascript, AJAX, jQuery, Objective-C
+: Ruby, REST, JSON, HTML, CSS, Javascript, AJAX, jQuery, Objective-C, ASIHTTPRequest, CorePlot, CoreData
 
 ## AirFrance _2007 &rarr;_ 
 

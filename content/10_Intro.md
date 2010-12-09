@@ -4,14 +4,14 @@ Docteur en Informatique (expert en Machine Learning)
 
 ## Domaines de Compétence
 
+- Développement iOS/Cocoa/Objective-C
+- Développement Ruby/Rack/REST
 - Développement Web 2.0/Ajax/Réseaux Sociaux
-- Développement Ruby
 - Développement Java/Swing/Java 2D
 - Développement C++/STL
 - Conception et Développement de Protocoles Réseaux
 - Formation Informatiques
 - Recherche Scientifique (Machine Learning)
-- Technologies Mac OS X
 
 # Connaissances Techniques
 

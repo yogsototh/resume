@@ -1,6 +1,6 @@
 # Expérience
 
-## Freelance pour GridPocket _2010 &rarr;_ 
+## Co-Fondateur et freelance pour GridPocket _2010 &rarr;_ 
 
 Sophia Antipolis, France
 

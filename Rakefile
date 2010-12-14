@@ -67,8 +67,9 @@ task :html do
     require 'rubygems'
     require 'kramdown'
     require 'filters/markdown_macros'
-    require 'filters/mkd_post_latex_macros_to_html'
+    require 'filters/markdown_postmacros'
     require 'filters/html_template'
+    require 'filters/fix_postmacros'
     require 'filters/mathjax'
     require 'filters/links'
 
@@ -78,6 +79,31 @@ task :html do
 
         attr_accessor :filelist
 
+        def initialize
+
+            eval File.new('config_html.rb','r').read
+
+            @prefilters=[]
+            @prefilters<<=MarkdownMacros.new
+            @prefilters<<=MarkdownPostMacros.new
+            @prefilters<<=FixPostMacros.new
+
+            @postfilters=[]
+            html_template=HTMLTemplate.new
+            html_template.template=@general_template
+            html_template.title=@title
+            html_template.subtitle=@subtitle
+            html_template.author=@author
+            html_template.homeURL="index.html"
+            @postfilters<<=Links.new
+            @postfilters<<=html_template
+            @postfilters<<=MathJax.new
+
+            @filelist=Dir.glob("content/**/*.md").sort.map do |fic|
+                    [ fic, fic.sub(/^content\//,"site/").sub(/.md$/,".html") ]
+                end
+        end
+
         # take a string from kramdown 
         # returns LaTeX after filter
         def compile_text(tmp)
@@ -86,7 +112,8 @@ task :html do
             end
 
             # compile to latex
-            tmp=Kramdown::Document.new(tmp, :latex_headers => %w(chapter* section* subsection* paragraph* subparagraph* subsubparagraph*)).to_html
+            # puts tmp
+            tmp=Kramdown::Document.new(tmp).to_html
 
             # post filters
             @postfilters.each{ |f| tmp=f.run(tmp) }
@@ -99,7 +126,9 @@ task :html do
             # puts "READ: " + txt
             txt.sub!( /<!-- INCLUDES -->/ ) do
                     @filelist.map do |source,dest| 
-                        if File::basename(source) == '00_macros.md'
+                        if File::basename(source) == '00_Macros.md'
+                            ""
+                        elsif File::basename(source) =~ /\.hide\./
                             ""
                         else
                             %{<div class="block">
@@ -120,36 +149,9 @@ task :html do
             txt.gsub!(%r{<!-- Title -->},@title)
             txt.gsub!(%r{<!-- Subtitle -->},@subtitle)
             # puts "AFTER TITLE: " + txt
-            txt.sub!( %r{<!-- HTML HEADER -->},@html_headers) 
-            # puts "AFTER HTML HEADER: " + txt
             fic=File.new("site/index.html","w")
             fic.write(txt)
             fic.close
-        end
-
-        def initialize
-
-            eval File.new('config_html.rb','r').read
-
-            @prefilters=[]
-            @prefilters<<=MarkdownMacros.new
-
-            @postfilters=[]
-            @postfilters<<=MarkdownPostLatexMacrosToHTML.new
-            html_template=HTMLTemplate.new
-            html_template.template=@general_template
-            html_template.title=@title
-            html_template.subtitle=@subtitle
-            html_template.author=@author
-            html_template.html_headers=@html_headers
-            html_template.homeURL="index.html"
-            @postfilters<<=Links.new
-            @postfilters<<=html_template
-            @postfilters<<=MathJax.new
-
-            @filelist=Dir.glob("content/**/*.md").sort.map do |fic|
-                    [ fic, fic.sub(/^content\//,"site/").sub(/.md$/,".html") ]
-                end
         end
 
         def run
@@ -161,7 +163,7 @@ task :html do
                 puts source
 
                 # read and compile in LaTeX the .md file
-                templateindex=2
+                templateindex=1
                 if (i+1)<@filelist.size
                     @postfilters[templateindex].nextURL = '/' + @filelist[i + 1][1].gsub('site/','')
                 else
@@ -199,8 +201,8 @@ task :compile do
     require 'rubygems'
     require 'kramdown'
     require 'filters/markdown_macros'
-    require 'filters/mkd_post_latex_macros'
-    require 'filters/star_section'
+    require 'filters/markdown_postmacros'
+    require 'filters/fix_postmacros_latex'
 
     class KrambookCompile
         require 'config.rb'
@@ -233,8 +235,7 @@ task :compile do
                     end.join("\n")
                 end.
                 sub!(%{\\author\{\}},'\author{'+@author+'}').
-                sub!(%{\\title\{\}},'\title{'+@title+'}').
-                sub!( /%%# LATEX HEADER FROM config\.rb #%%/,@latex_headers) 
+                sub!(%{\\title\{\}},'\title{'+@title+'}')
             fic=File.new("tmp/#{@pdfname}.tex","w")
             fic.write(txt)
             fic.close
@@ -246,10 +247,10 @@ task :compile do
 
             @prefilters=[]
             @prefilters<<=MarkdownMacros.new
+            @prefilters<<=MarkdownPostMacros.new
+            @prefilters<<=FixPostMacros.new
 
             @postfilters=[]
-            @postfilters<<=MarkdownPostLatexMacros.new
-            @postfilters<<=StarSection.new
 
             @filelist=Dir.glob("content/**/*.md").sort.map do |fic|
                     [ fic, fic.sub(/^content\//,"tmp/").sub(/.md$/,".tex") ]

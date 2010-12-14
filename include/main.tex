@@ -22,3 +22,17 @@
 \usepackage{fontspec}
 \usepackage{mflogo}
 \usepackage{enumitem}
+
+% -- Better LaTeX macro
+\usepackage{expl3}
+
+\ExplSyntaxOn
+\newcommand \latinabbrev [1] {
+  \peek_catcode:NTF a
+    { #1 \@ ~ }
+    { #1 \@ }
+}
+\ExplSyntaxOff
+\def\ytex{\latinabbrev{\TeX}}
+\def\ylatex{\latinabbrev{\LaTeX}}
+\def\yxelatex{\latinabbrev{\XeLaTeX}}

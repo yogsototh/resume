@@ -1,7 +1,7 @@
 # Use this file to configure some general variables
 
-@title=%{<span style="font-size:.3em"><em>Curriculum Vitæ</em></span><br/>Yann Esposito}
-@subtitle=%{<span class="small"><em>Expert en Machine Learning</em></span>}
+@title=%{Resume}
+@subtitle=%{Resume}
 
 @author="Yann Esposito"
 

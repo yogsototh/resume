@@ -1,65 +1,20 @@
 # Yann Esposito
 
-Docteur en Informatique (expert en Machine Learning)
+# What did I done?
 
-## Domaines de Compétence
+I've written a thesis in Machine Learning about Probabilistic Automata Inference.
 
-- Développement iOS/Cocoa/Objective-C
-- Développement Ruby/Rack/REST
-- Développement Web 2.0/Ajax/Réseaux Sociaux
-- Développement Java/Swing/Java 2D
-- Développement C++/STL
-- Conception et Développement de Protocoles Réseaux
-- Formation Informatiques
-- Recherche Scientifique (Machine Learning)
+I publied results about this thesis in major international conferences: COLT&nbsp;2004 _&_ COLT&nbsp;2006.
 
-# Connaissances Techniques
+I've written a 10 000 line C++ command line program that implemented most HMM standard algorithms _&_ research algorithms.
 
-Langages objets 
-: Ruby, Objective-C, Javascript, Perl, C++, Java, Python,  PHP
+I've written a Java application with Swing UI. The goal is to provide biologist an easy way to use an algorithm that generate Similarity Matrices. I knew very few about Java before writting this program.
+I created a library to draw nice trees.
+Here are some screenshots:
+...
 
-Web
-: Ajax (xmlHTTPRequest, prototype.js, jQuery, scriptaculous...), XML, JSON Ruby (nanoc), PHP/MySQL, Python (Django), REST, SOAP, XML-RPC
+I've worked in the Web Team of AirFrance. I contributed many things about their B2B website (wadis). Two complete _L&F_ changes.
+Integrated a DCVS system (Bazaar).
 
-Normes
-: HTML, XHTML, CSS, SVG
-
-Bibliothèques (API)
-: C++(STL), Java (Swing/Java 2D), Python (PySQLite, wxPython, crypto, socket), Objective-C (Cocoa, iOS, Core Data, Quartz Composer, Core Plot, ASI HTTP Request)
-
-Autres langages
-: C, camL
-
-Outils  `UNIX`
-: Scripts shell (zsh, bash), awk, %latex, ConTeXt, %metapost
-
-Méthodes de conception
-: UML, Merise
-
-Outils de développement
-: XCode, Environnement Unix (make, gcc,...)
-
-Outils décisionnels
-: Entreprise Miner (SAS), weka, SVMlight
-
-Outils de contrôle version
-: git, Bazaar (DCVS), subversion (svn), CVS
-
-Matériel et systèmes
-: Mac OS X, Unix/Linux (Solaris, Ubuntu, Debian), Windows&nbsp;XP  
-
-IHM
-: jQuery, scriptaculous, prototype.js, Java Swing, wxPython, Cocoa
-
-Protocoles réseaux
-: Ethernet, TCP/IP, UDP, FTP, DNS, DHCP
-
-Outils réseaux
-: ifconfig, tcpdump, wireshark (ehtereal),lsof...
-
-Sécurité
-: AES, DES, 3DES,Codes de Hamming, PGP, GPG, réseaux certifiant l’anoymat, Certificats... 
-
-Bases de données
-: DataMapper, MySQL, PostgreSQL, SQLite
-
+I am co-Founder of GridPocket a startup that help to display electric grids. 
+I contributed in the creation of the ruby server, an iPhone application and a javascript oriented web application..

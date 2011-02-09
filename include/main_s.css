@@ -490,12 +490,12 @@ table.description
   margin-right: auto
   margin-left: auto
 
-table.description tr td
+table tr td, table.description tr td
   padding-left: 0.5em
   padding-right: 0.5em
   padding-top: 0.5ex
   padding-bottom: 0.5ex
-  vertical-align: middle
+  vertical-align: top
   margin-right: 5px
 
 ul.long li
@@ -761,5 +761,8 @@ ul.bloglist, .archive ul
   visibility: hidden
 
 dt
-  font-style:italic
-  color:#666
+  font-style: italic
+  color: #666
+
+.detail
+  font-size: .8em

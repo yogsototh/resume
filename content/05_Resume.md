@@ -1,10 +1,11 @@
-# Resume
+# Yann Esposito
 
 |-----------|
-| Yann Esposito |
 | mail | <yann.esposito@gmail.com> |
 | port | (+33)650845271 |
-| address | Bât K4, Les Pugets<br/> 101, rue Jean Giono<br/> 06700, Saint Laurent du Var |
+| address | Bât K4, Les Pugets |
+| | 101, rue Jean Giono
+| |06700, Saint Laurent du Var |
 
 ### Professional Background
 
@@ -17,7 +18,7 @@
 
 ### Education
 
-| _2004_ | Ph.D. in Computer Science at Université de Provence, domain Machine Learning |
+| _2004_ | Ph.D. in Computer Science at Université de Provence (Machine Learning) |
 | _2001_ | D.E.A. (Equivalent to Master in Computer science) mention good               |
 | _2000_ | Maîtrise in Computer Science (mention good)                                  |
 | _1999_ | Licence in Computer Science (mention good)                                   |

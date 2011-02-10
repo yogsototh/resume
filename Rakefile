@@ -203,6 +203,7 @@ task :compile do
     require 'filters/markdown_macros'
     require 'filters/markdown_postmacros'
     require 'filters/fix_postmacros_latex'
+    require 'filters/fix_latex_tables'
 
     class KrambookCompile
         require 'config.rb'
@@ -251,6 +252,7 @@ task :compile do
             @prefilters<<=FixPostMacros.new
 
             @postfilters=[]
+            @postfilters<<=FixLatexTables.new
 
             @filelist=Dir.glob("content/**/*.md").sort.map do |fic|
                     [ fic, fic.sub(/^content\//,"tmp/").sub(/.md$/,".tex") ]

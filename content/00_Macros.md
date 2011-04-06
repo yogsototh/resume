@@ -6,6 +6,7 @@ POSTMACRO(beginbox) = LATEX: \medskip\fbox{\colorbox{boxcolor}{\begin{minipage}{
 
 POSTMACRO(endbox) = LATEX: \end{minipage}}}\medskip HTML: </div> ENDMACRO
 
+POSTMACRO(metapost) = LATEX: {\texttt{metapost}} HTML: <code>metapost</code> ENDMACRO
 
 POSTMACRO(tex) = LATEX: \ytex HTML: <span style="text-transform: uppercase">T<sub style="vertical-align: -0.5ex; margin-left: -0.1667em; margin-right: -0.125em; font-size: 1em">e</sub>X</span> ENDMACRO
 

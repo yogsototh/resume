@@ -18,24 +18,26 @@
 
 ### Education
 
-| _2004_ | Ph.D. in Computer Science at Université de Provence (Machine Learning) |
-| _2001_ | D.E.A. (Equivalent to Master in Computer science) mention good               |
-| _2000_ | Maîtrise in Computer Science (mention good)                                  |
-| _1999_ | Licence in Computer Science (mention good)                                   |
+| _2004_ | CS Ph.D. in Machine Learning at Université de Provence  |
+| _2001_ | D.E.A. (Equivalent to Master in Computer science)       |
+| _2000_ | Maîtrise in Computer Science                            |
+| _1999_ | Licence in Computer Science                             |
 | _1998_ | DEUG MIAS (Math)                                                             |
 | _1995_ | BAC S (Math)                                                                 |
 
 ### Research Activies: Publications
 
-| _International Journal_   |     [Fundamenta Informaticæ, 2008] [Pattern&nbsp;Recognition,&nbsp;2004] |
-| _Internation Conferences_ | [ECML 2008] [ICGI 2006] [COLT 2006] [COLT 2004] [ICALP 2003] [ICGI 2002] |
-| _National Journal_        |                                                             [JEDAI 2002] |
-| _National Conferences_    |                                               [CAp'06] [CAp'04] [CAp'03] |
+| _International Journal_   |         [Fundamenta Informaticæ, 2008] |
+|                           |  [Pattern&nbsp;Recognition,&nbsp;2004] |
+| _Internation Conferences_ |    [ECML 2008] [ICGI 2006] [COLT 2006] |
+|                           |   [COLT 2004] [ICALP 2003] [ICGI 2002] |
+| _National Journal_        |   [JEDAI 2002] |
+| _National Conferences_    |   [CAp'06] [CAp'04] [CAp'03] |
 
 ### Softwares
 
-| GridPocket server architecture, API (Ruby/Rack/JSON/REST)                             |
-| GridPocket Javascript (jQuery/Object Oriented JS) oriented Web client                 |
-| GridPocket iPhone (Objective-C/Cocoa) client                                          |
-| SEDiL Learn Tree Edit Distances (Java/Swing) made Swing UI components to draw trees   |
-| DEES Inference of Multiplicity Automata/HMM (C++/STL)                                 |
+| GridPocket server architecture | API (Ruby/Rack/JSON/REST)  |
+| GridPocket Web Client | Full Javascript (jQuery) Web client |
+| GridPocket iPhone app |  (Objective-C/Cocoa) client         |
+| [SEDiL](http://labh-curien.univ-st-etienne.fr/SEDiL/) | Learn Tree Edit Distances (Java/Swing) |
+| DEES | Multiplicity Automata/HMM (C++/STL) |

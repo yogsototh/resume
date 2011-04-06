@@ -1,24 +1,24 @@
-# Publications scientifiques
+# Scientific Publications
 
-### Internationales 
+### International 
 
-Journaux
+Journals
 : [Fundamenta&nbsp;Inforamticæ&nbsp;vol.&nbsp;86&nbsp;2008] [Pattern&nbsp;Recognition,&nbsp;2004]  
 
-Conférences
+Conferences
 : [ECML&nbsp;2008] [COLT&nbsp;2006] [ICGI&nbsp;2006] [COLT&nbsp;2004] [ICALP&nbsp;2003] [ICGI&nbsp;2002]
 
 Workshop
 : [TAGI05]
 
-### Nationales 
+### National (French)
 
-Journaux
+Journals
 : [JEDAI,&nbsp;2003] 
 
-Conférences
+Conferences
 : [CAP&nbsp;2006] [CAP&nbsp;2004] [CAP&nbsp;2003] 
 
-Thèse
+Thesis
 : [Université&nbsp;de&nbsp;Provence&nbsp;2004]
 

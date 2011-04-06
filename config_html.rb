@@ -6,7 +6,7 @@
 @author="Yann Esposito"
 
 # file name
-@pdfname="krambook"
+@pdfname="cv"
 
 # LaTeX headers (before \begin{document})
 @html_headers=''

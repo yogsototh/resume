@@ -55,6 +55,7 @@ task :svg do
             src.close
 
             res.sub!("var nb_pages=0","var nb_pages=#{nb_pages}")
+            res.sub!("\"krambook-\"",%{"#{@pdfname}-"})
             target.write(res)
             target.close
         end

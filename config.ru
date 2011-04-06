@@ -4,6 +4,8 @@ require 'rack/contrib'
 require 'rack-rewrite'
 require 'mime/types'
 
+$main_directory='svgsite'
+
 use Rack::Deflater
 use Rack::ETag
 module ::Rack
@@ -38,11 +40,11 @@ end
 # end
 
 use Rack::TryStatic, 
-    :root => "site/",                              # static files root dir
+    :root => $main_directory,                              # static files root dir
     :urls => %w[/],                                 # match all requests 
     :try => ['.html', 'index.html', '/index.html']  # try these postfixes sequentially
 
-errorFile='site/include/404.html'
+errorFile=$main_directory+'/include/404.html'
 run lambda { [404, {
                 "Last-Modified"  => File.mtime(errorFile).httpdate,
                 "Content-Type"   => "text/html",

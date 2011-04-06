@@ -4,6 +4,7 @@
 
 Many different application to manage passwords. The iPhone application should be soon finished.
 But there is also: 
+
 - a Mac OS X dashboard widget, 
 - a Cappuccino Web application,
 - a jQuery Web application,
@@ -23,7 +24,9 @@ Made a protocol similar to [TOR](http://www.torproject.org) for student.
 ### Some other things
 
 - Web Application used for private team usage at AirFrance _2008 &rarr;_  
-This application is just done _for the LULZ_. Not related to the Airfrance work. But still pleasant.  _Javascript(Prototype.js, Scriptaculous), CSS, PHP/MySQL, Google Talk_
+  This application is just done _[for teh lulz](http://cdn1.knowyourmeme.com/i/25244/original/lulz2.jpg?1257402975)_. 
+  Not related to the Airfrance work. But still pleasant.  
+  _Javascript(Prototype.js, Scriptaculous), CSS, PHP/MySQL, Google Talk_
 - %metapost package to draw Automata _2003 &rarr; 2004_  
   _%metapost_
 - Mac OS X Screensavers _2003 &rarr; 2004_  

@@ -6,6 +6,7 @@ require 'rake/clean'
 CLEAN.include('**/*.{aux,log,out}')
 CLEAN.include('tmp/**/*')
 CLOBBER.include('**/*.pdf')
+CLOBBER.include('svgsite/**/*')
 CLOBBER.include('content/**/*.tex')
 CLOBBER.include('site/**/*.html')
 CLOBBER.include('site/**/*.svg')

@@ -24,7 +24,7 @@ This framework is REST oriented and output can be either JSON (preferred), but a
 
 Made a protocol similar to [TOR](http://www.torproject.org) for student.
 
-### Some other things
+### Other projects
 
 - Web Application used for private team usage at AirFrance _2008 &rarr;_  
   This application is just done _[for teh lulz](http://cdn1.knowyourmeme.com/i/25244/original/lulz2.jpg?1257402975)_. 
@@ -34,3 +34,9 @@ Made a protocol similar to [TOR](http://www.torproject.org) for student.
   _%metapost_
 - Mac OS X Screensavers _2003 &rarr; 2004_  
   _Objective-C,Quartz Composer,Cocoa_
+
+You could find even more information by looking at:
+
+- My personnal website: <http://yannesposito.com>
+- My github account: <http://github.com/yogsototh>
+

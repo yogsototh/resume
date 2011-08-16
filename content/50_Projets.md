@@ -2,7 +2,10 @@
 
 ### YPassword _2008 &rarr;_
 
-Many different application to manage passwords. The iPhone application should be soon finished.
+Many different application to manage passwords. Mainly an iOS application:
+
+- [YPassword](http://ypassword.espozito.com)
+
 But there is also: 
 
 - a Mac OS X dashboard widget, 

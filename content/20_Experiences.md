@@ -9,12 +9,13 @@ Product
 : A private client side web application
 : An iPhone Application
 : Some Linux boxes to send data to the servers
+: A Linux driver 
 
 Role
 : Full technical responsibilities
 
 Technical Keywords:
-: Ruby, REST, JSON, HTML, CSS, Javascript, AJAX, jQuery, Objective-C, ASIHTTPRequest, CorePlot, CoreData
+: Ruby, REST, JSON, HTML, CSS, Javascript, AJAX, jQuery, Objective-C, ASIHTTPRequest, CorePlot, CoreData, C
 
 ## AirFrance _2007 &rarr;_ 
 
@@ -32,7 +33,7 @@ Environnement
 
 ## Post Ph.D _10/2006 &rarr; 3/2007_ 
 
-Université Jean Monnet, Laboratoire Hubert Curien, Saint-Etienne
+Université Jean Monet, Laboratoire Hubert Curien, Saint-Etienne
 
 Product
 : [SeDiL](http://labh-curien.univ-st-etienne.fr/SEDiL/)

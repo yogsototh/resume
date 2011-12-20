@@ -1,4 +1,6 @@
-# Projets
+# Projects
+
+Most of my latest programming activities are publicly available at [github.com/yogsototh](http://github.com/yogsototh)
 
 ### YPassword _2008 &rarr;_
 

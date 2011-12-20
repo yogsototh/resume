@@ -34,10 +34,3 @@
 | _National Journal_        |   [JEDAI 2002] |
 | _National Conferences_    |   [CAp'06] [CAp'04] [CAp'03] |
 
-### Softwares
-
-| GridPocket server architecture | API (Ruby/Rack/JSON/REST)  |
-| GridPocket Web Client | Full Javascript (jQuery) Web client |
-| GridPocket iPhone app |  (Objective-C/Cocoa) client         |
-| [SEDiL](http://labh-curien.univ-st-etienne.fr/SEDiL/) | Learn Tree Edit Distances (Java/Swing) |
-| DEES | Multiplicity Automata/HMM (C++/STL) |

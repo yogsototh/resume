@@ -4,7 +4,7 @@ require 'rack/contrib'
 require 'rack-rewrite'
 require 'mime/types'
 
-$main_directory='svgsite'
+$main_directory='site'
 
 use Rack::Deflater
 use Rack::ETag

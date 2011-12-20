@@ -71,8 +71,7 @@ blockquote {
   color: #555555; }
   blockquote a:hover {
     color: #d50000; }
-  blockquote strong, blockquote b, blockquote i, blockquote em {
-    font-weight: normal;
+  blockquote i, blockquote em {
     font-style: normal;
     color: #111111; }
 
@@ -313,8 +312,7 @@ ul.horizontal {
   color: #555555; }
   .intro a:hover, .resume a:hover {
     color: #d50000; }
-  .intro strong, .intro b, .intro i, .intro em, .resume strong, .resume b, .resume i, .resume em {
-    font-weight: normal;
+  .intro i, .intro em, .resume i, .resume em {
     font-style: normal;
     color: #111111; }
 
@@ -443,7 +441,15 @@ table tr td, table.description tr td {
   padding-top: 0.5ex;
   padding-bottom: 0.5ex;
   vertical-align: top;
-  margin-right: 5px; }
+  margin-right: 5px;
+  width: 27em; }
+  table tr td:first-child, table.description tr td:first-child {
+    width: 10em; }
+
+table {
+  background-color: #fafafa;
+  border: solid 1px #cccccc;
+  border-radius: 3px; }
 
 ul.long li {
   margin-bottom: 1em; }
@@ -637,15 +643,20 @@ a.return {
   margin: 0;
   padding: 0; }
 
-strong, b, i, em {
-  font-weight: normal;
+i, em {
   color: #888888; }
-  strong a, b a, i a, em a {
-    color: #111111; }
-  strong a:hover, b a:hover, i a:hover, em a:hover {
-    color: #d50000; }
 
-.corps p strong, .corps p b, .corps p i, .corps p em {
+strong, b {
+  color: #883300; }
+
+strong a, b a, i a, em a {
+  color: #111111; }
+strong a:hover, b a:hover, i a:hover, em a:hover {
+  color: #d50000; }
+
+.corps p strong, .corps p b {
+  color: #883300; }
+.corps p i, .corps p em {
   color: #555555; }
 
 a:hover strong, a:hover b, a:hover i, a:hover em {

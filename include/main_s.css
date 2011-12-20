@@ -4,6 +4,7 @@ $mainBackgroundColor: white
 $revealColor: #d50000
 $secondRevealColor: #e25f2f
 $lighterRevealColor: #ffbe96
+$strongColor: #883300
 $imageBackgroundColor: $mainBackgroundColor
 $imageBorderColor: #cccccc
 $mainLinkColor: $mainTextColor
@@ -38,9 +39,8 @@ $codeBlockBackgroundColor: $behindColor
   color: $highlightBlockColor
   a:hover
     color: $revealColor
-  strong, b, i, em
+  i, em
     font:
-      weight: normal
       style: normal
     color: $behindColor
 
@@ -497,6 +497,14 @@ table tr td, table.description tr td
   padding-bottom: 0.5ex
   vertical-align: top
   margin-right: 5px
+  width: 27em
+  &:first-child
+    width: 10em
+
+table
+  background-color: #FAFAFA
+  border: solid 1px #CCC
+  border-radius: 3px
 
 ul.long li
   margin-bottom: 1em
@@ -692,16 +700,22 @@ a.return
   margin: 0
   padding: 0
 
-strong, b, i, em
-  font-weight: normal
+i, em
   color: $highlightColor
+
+strong, b
+  color: $strongColor
+
+strong, b, i, em
   a
     color: $mainTextColor
   a:hover
     color: $revealColor
 
 .corps p
-  strong, b, i, em
+  strong, b 
+    color: $strongColor
+  i, em
     color: $highlightBlockColor
 
 a:hover

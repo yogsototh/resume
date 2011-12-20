@@ -647,7 +647,7 @@ i, em {
   color: #888888; }
 
 strong, b {
-  color: #883300; }
+  color: #880000; }
 
 strong a, b a, i a, em a {
   color: #111111; }
@@ -655,7 +655,7 @@ strong a:hover, b a:hover, i a:hover, em a:hover {
   color: #d50000; }
 
 .corps p strong, .corps p b {
-  color: #883300; }
+  color: #880000; }
 .corps p i, .corps p em {
   color: #555555; }
 

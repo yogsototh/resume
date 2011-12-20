@@ -1,4 +1,4 @@
-# What I did
+# Things done
 
 - [YPassword](ypassword.espozito.com) iPhone application
 - Gridpocket web services (from conception to realization, works in correlation with a mobile app)

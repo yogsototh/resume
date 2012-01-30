@@ -18,6 +18,15 @@
 % Make italic and emphasis text gray
 \renewcommand{\textit}[1]{\textcolor{italiccolor}{\it #1}}
 \renewcommand{\emph}[1]{\textcolor{italiccolor}{\em #1}}
+\let\origdescription\description
+\renewenvironment{description}{
+    \setlength{\leftmargini}{1em}
+    \origdescription
+    \setlength{\itemindent}{-1em}
+    \setlength{\labelsep}{\textwidth}
+}
+{\endlist}
+
 
 % -- Redefinition of memoir chapters --
 %

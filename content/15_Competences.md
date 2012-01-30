@@ -1,13 +1,13 @@
-# Technical Competences
+# Compétences Techniques
 
 Mac
 : __Objective-C Cocoa (Mac &amp; iOS)__, Dahsboard widget, Quartz Composer
 
-Mainstream Languages
-: __Javascript__, __C++__, __Ruby__, Perl, Java, Python, PHP
+Langages Populaires
+: __Javascript__, __C++__, __Ruby__, Perl, C, Java, Python, PHP
 
-Languages
-: __Haskell__, scheme, C, camL
+Langages Avancés
+: __Haskell__, scheme, camL
 
 `Unix`
 : Shell scripts (zsh, bash), awk, %latex, ConTeXt, %metapost
@@ -15,14 +15,14 @@ Languages
 IDE
 : XCode, Unix environment (vim)
 
-Data Mining Tools
+Outils de Data Mining
 : Entreprise Miner (SAS), weka, SVMlight
 
-Version Control Tools
+Outils de Contrôle de Version
 : __git__, Bazaar (DCVS), subversion (svn), CVS
 
-Programming environments
+Environnements
 : Mac OS X, Unix/Linux (Solaris, Ubuntu, Debian), Windows&nbsp;XP  
 
-UI
+Interface Graphique
 : Cappuccino, jQuery, Java Swing, Cocoa

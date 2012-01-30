@@ -1,68 +1,78 @@
-# Jobs
+# Expérience
 
-## Co-Founder _&_ freelance for GridPocket _2010 &rarr;_ 
+## Co-Fondateur _&_ freelance pour GridPocket _2010 &rarr;_ 
 
 Sophia Antipolis, France
 
-Product
-: Two API server (one for client, another for administration)
-: A private client side web application
-: An iPhone Application
-: Some Linux boxes to send data to the servers
-: A Linux driver 
+Produit
+: Deux serveurs d'API (un client, l'autre administration)
+: Une application web privée client side
+: Une application iPhone
+: Des Linux boxes pour envoyer les données au serveur
+: Un driver Linux
 
-Role
-: Full technical responsibilities
+Rôle
+: Entière responsabilité technique
 
-Technical Keywords:
+Mots clés techniques
 : Ruby, REST, JSON, HTML, CSS, Javascript, AJAX, jQuery, Objective-C, ASIHTTPRequest, CorePlot, CoreData, C
 
 ## AirFrance _2007 &rarr;_ 
 
 Consultant
 
-Role 
-: In charge of the Airfrance CMS for their website.
+Rôle
+: En charge du CMS privé d'Airfrance
+: Développement Web
+: Développement Système de gestion interne (Perl, Shell)
+: Maintenance des systèmes en place
+: Mise en production
 
-Technical Keywords
+Projets
+: Modernisation de l'apparence du site Airfrance GPNet (site interne)
+: Modernisation (3 fois) du site B2B d'Airfrance ; avant wadis, maintenant afkl.biz bientôt agentConnect.biz.
+: Modernisation du système interne de mise à jour des données
+: Installation d'un DCVS pour les développements CMS.
+
+Mots clés techniques
 : TeamSite, Perl, XML, XHTML, CSS, javascript, JSP, Unix (Solaris/Linux), Bazaar
 
 Environnement
 : Windows (Cygwin), Sun Solaris, Linux
 
 
-## Post Ph.D _10/2006 &rarr; 3/2007_ 
+## Post Doctorat _10/2006 &rarr; 3/2007_ 
 
 Université Jean Monet, Laboratoire Hubert Curien, Saint-Etienne
 
-Product
+Produit
 : [SeDiL](http://labh-curien.univ-st-etienne.fr/SEDiL/)
 
-Role
-: Developer
+Rôle
+: Développeur
 
-Details
+Détails
 
-> Java application: _11 000 lines with javadoc_
+> Java application: _11 000 lignes avec le javadoc_
 > 
-> Main functionalities
+> Fonctionnalités principales:
 > 
-> - learn edit matrices
-> - compute edit distances between trees or strings
-> - visualize trees or sequences (JAVA 2D)
-> - classification using K means
-> - Generate random tree couple from an edit distance matrice
+> - Apprentissage de matrices d'éditions
+> - calcule des distances d'édition entre arbres ou chaînes de caractères
+> - visualise des arbres ou des sequences (JAVA 2D)
+> - classification en utilisant les K plus proches voisins
+> - Génération de couples d'arbres aléatoires par rapport à une matrice d'édition donnée
 > 
 > Web: [http://labh-curien.univ-st-etienne.fr/SEDiL/](http://labh-curien.univ-st-etienne.fr/SEDiL/)
 
-Research
+Recherche
 
-> Similarity measure between strings or XML trees
+> Mesures de similarités entre séquences ou arbres XML
 
 Contact
 : [Marc Sebban](mailto://marc.sebban@univ-st-etienne.fr)
 
-Technical Keywords
+Mots clés
 : UML, Java 1.5, Swing, Java 2D, Java Web Start, Applet, subversion, XML, XHTML, PHP
 
 Environnement
@@ -71,34 +81,34 @@ Environnement
 
 ## ATER _10/2004 &rarr; 9/2006_ 
 
-Research _&_ Teacher, Université de Provence, Marseille
+Recherche _&_ Enseignement, Université de Provence, Marseille
 
-_teach 1/2, research 1/6, C++ development 1/3_
+_Enseignement 1/2, Recherche 1/6, Développement C++ 1/3_
 
-DEES ; a C++ software
+DEES ; un software en C++
 
-> _7500 lines of C++ code,  10.000 with comments_
+> _7500 lignes de C++ code,  10.000 avec les commentaires_
 > 
-> Main functionalities:
+> Fonctionnalités principales :
 > 
-> - Mulitiplicity Automata, HMM _&_ PDA Inference,
-> - Baum Welch _&_ Viterbi Algorithms,
-> - GraphViz export,
-> - String Generation from many Models,
+> - Inférence d'automates à multiplicité, HMM _&_ PDA,
+> - Algorithmes de Baum Welch _&_ Viterbi,
+> - Exportation au format GraphViz,
+> - Génération de séquences à partir d'un modèle,
 > 
-> Languages
+> Langages
 > : C++
 > 
 > API
 > : STL
 > 
-> Environment
+> Environnement
 > : Linux (Debian) _&_ Windows XP
 
 ## Moniteur des Universités _10/2001 &rarr; 9/2004_ 
 
 Université de Provence, Marseille 
 
-_teach 1/3, research 1/3, C++ Development 1/3_
+_Enseignement 1/3, Recherche 1/3, C++ Développement 1/3_
 
-Creation of DEES (see preceeding entry).
+Création de DEES (voir l'entrée précédente).

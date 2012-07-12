@@ -20,6 +20,32 @@ $secondTextColor: #666666
 $codeBlockColor: $mainBackgroundColor
 $codeBlockBackgroundColor: $behindColor
 
+// include Computer Modern fonts
+
+@font-face
+  font-family: 'cmuntt'
+  src: url('fonts/cmuntt.eot')
+  src: local('☺'), url('fonts/cmuntt.svg') format('svg'), url('fonts/cmuntt.ttf') format('truetype')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'ComputerModern'
+  src: url('fonts/cmunrb.eot')
+  src: local('☺'), url('fonts/cmunrb.svg') format('svg'), url('fonts/cmunrb.ttf') format('truetype')
+  font-weight: bold
+@font-face
+  font-family: 'ComputerModern'
+  src: url('fonts/cmunsl.eot')
+  src: local('☺'), url('fonts/cmunsl.svg') format('svg'), url('fonts/cmunsl.ttf') format('truetype')
+  font-style: italic,oblique
+@font-face
+  font-family: 'ComputerModern'
+  src: url('fonts/cmunrm.eot')
+  src: local('☺'), url('fonts/cmunrm.svg') format('svg'), url('fonts/cmunrm.ttf') format('truetype')
+  font-weight: normal
+  font-style: normal
+
 =mainColor
   color: $behindColor
   background:
@@ -117,7 +143,8 @@ ol li ul, ol li ol, ul li ol, ul li ul
   margin: 1em 1em
 
 body, h1, h2, h3, h4, #entete, .tag
-  font-family: Georgia, Palatino, "Century Schoolbook L", "Times New Roman", Times, serif
+  font-family: "ComputerModern", Georgia, Palatino, "Century Schoolbook L", "Times New Roman", Times, serif
+  text-rendering: optimizelegibility
   line-height: 1.4em
 
 pre
@@ -127,13 +154,7 @@ pre
 
 pre, code
   font:
-    family: monaco, monospace
-    size: .8em
-
-p code
-  font:
-    family: monospace
-    size: 1em
+    family: "cmuntt",Incosolata,Monaco,monospace
 
 p
   margin-bottom: 1.2em
@@ -387,7 +408,6 @@ $contentMargin: 0em
 $fontcorps: 1.25
 
 .corps
-  font-family: Georgia, Palatino, "Century Schoolbook L", "Times New Roman", Times, serif
   font-size: #{$fontcorps}em
   line-height: 1.6em
   text-align: justify

@@ -1,3 +1,30 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "cmuntt";
+  src: url("fonts/cmuntt.eot");
+  src: local("☺"), url("fonts/cmuntt.svg") format("svg"), url("fonts/cmuntt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "ComputerModern";
+  src: url("fonts/cmunrb.eot");
+  src: local("☺"), url("fonts/cmunrb.svg") format("svg"), url("fonts/cmunrb.ttf") format("truetype");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "ComputerModern";
+  src: url("fonts/cmunsl.eot");
+  src: local("☺"), url("fonts/cmunsl.svg") format("svg"), url("fonts/cmunsl.ttf") format("truetype");
+  font-style: italic, oblique; }
+
+@font-face {
+  font-family: "ComputerModern";
+  src: url("fonts/cmunrm.eot");
+  src: local("☺"), url("fonts/cmunrm.svg") format("svg"), url("fonts/cmunrm.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 table.description tr td {
   border: 1px solid #eeeeee; }
 
@@ -45,7 +72,8 @@ ol li ul, ol li ol, ul li ol, ul li ul {
   margin: 1em 1em; }
 
 body, h1, h2, h3, h4, #entete, .tag {
-  font-family: Georgia, Palatino, "Century Schoolbook L", "Times New Roman", Times, serif;
+  font-family: "ComputerModern", Georgia, Palatino, "Century Schoolbook L", "Times New Roman", Times, serif;
+  text-rendering: optimizelegibility;
   line-height: 1.4em; }
 
 pre {
@@ -55,12 +83,7 @@ pre {
   line-height: 1.2em; }
 
 pre, code {
-  font-family: monaco, monospace;
-  font-size: 0.8em; }
-
-p code {
-  font-family: monospace;
-  font-size: 1em; }
+  font-family: "cmuntt", Incosolata, Monaco, monospace; }
 
 p {
   margin-bottom: 1.2em; }
@@ -337,7 +360,6 @@ ul.horizontal {
   line-height: 1.1em; }
 
 .corps {
-  font-family: Georgia, Palatino, "Century Schoolbook L", "Times New Roman", Times, serif;
   font-size: 1.25em;
   line-height: 1.6em;
   text-align: justify;

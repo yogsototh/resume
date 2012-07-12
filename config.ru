@@ -21,7 +21,11 @@ module ::Rack
             while @next < @try.size && 404 == (resp = super(try_next(env)))[0] 
                 @next += 1
             end
-            404 == resp[0] ? @app.call : resp
+            tmp=(404 == resp[0] ? @app.call : resp)
+            if not tmp[1].nil? and not tmp[1]["Content-Type"].nil? then
+                tmp[1]["Content-Type"]=tmp[1]["Content-Type"] + "; charset=utf-8"
+            end
+            return tmp
         end
 
         private
@@ -32,21 +36,14 @@ module ::Rack
     end
 end
 
-# use Rack::Rewrite do
-#     r302 %r{/(Softwares.*)}, 'http://web.me.com/yann.esposito/$1'
-#     r302 %r{/(Perso.*)}, 'http://web.me.com/yann.esposito/$1'
-#     r302 %r{/YPassword(.*)}, '/Scratch/en/softwares/ypassword/iphoneweb'
-#     r302 %r{/(Bastien.*)}, 'http://web.me.com/yann.esposito/$1'
-# end
-
 use Rack::TryStatic, 
-    :root => $main_directory,                              # static files root dir
+    :root => $main_directory,                       # static files root dir
     :urls => %w[/],                                 # match all requests 
     :try => ['.html', 'index.html', '/index.html']  # try these postfixes sequentially
 
 errorFile=$main_directory+'/include/404.html'
 run lambda { [404, {
                 "Last-Modified"  => File.mtime(errorFile).httpdate,
-                "Content-Type"   => "text/html",
+                "Content-Type"   => "text/html; charset=utf-8",
                 "Content-Length" => File.size(errorFile).to_s
             }, File.read(errorFile)] }

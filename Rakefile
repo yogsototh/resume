@@ -23,7 +23,7 @@ task :svg do
         end
 
         def run
-            FileUtils.mkdir_p("site") 
+            FileUtils.mkdir_p("site")
 
             if not FileTest.exists?( "tmp/#{@pdfname}.pdf" )
                 puts "run `rake compile` to generate the pdf file please"
@@ -42,7 +42,7 @@ task :svg do
                     res<<=%{#{Integer($1) + hdecal} }
                     res<<=%{#{Integer($2) + vdecal} }
                     res<<=%{#{Integer($3) - hdecal} }
-                    res<<=%{#{Integer($4) - vdecal}"} 
+                    res<<=%{#{Integer($4) - vdecal}"}
                 end
                 f.close
                 f=File.open(fic,"w")
@@ -95,6 +95,7 @@ task :html do
             html_template.template=@general_template
             html_template.title=@title
             html_template.subtitle=@subtitle
+            html_template.subsite=@subsite
             html_template.author=@author
             html_template.homeURL="index.html"
             @postfilters<<=Links.new
@@ -106,10 +107,10 @@ task :html do
                 end
         end
 
-        # take a string from kramdown 
+        # take a string from kramdown
         # returns LaTeX after filter
         def compile_text(tmp)
-            @prefilters.each do |f| 
+            @prefilters.each do |f|
                 tmp=f.run( tmp )
             end
 
@@ -126,8 +127,13 @@ task :html do
             txt=File.read(@template_file)
 
             # puts "READ: " + txt
+            if @subsite
+                prefix=@subsite+'/'
+            else
+                prefix=''
+            end
             txt.sub!( /<!-- INCLUDES -->/ ) do
-                    @filelist.map do |source,dest| 
+                    @filelist.map do |source,dest|
                         if File::basename(source) == '00_Macros.md'
                             ""
                         elsif File::basename(source) =~ /\.hide\./
@@ -167,12 +173,12 @@ task :html do
                 # read and compile in LaTeX the .md file
                 templateindex=1
                 if (i+1)<@filelist.size
-                    @postfilters[templateindex].nextURL = '/' + @filelist[i + 1][1].gsub('site/','')
+                    @postfilters[templateindex].nextURL = @filelist[i + 1][1].gsub('site/','')
                 else
                     @postfilters[templateindex].nextURL = "#"
                 end
                 if (i-1)>=0
-                    @postfilters[templateindex].prevURL = '/' + @filelist[i - 1][1].gsub('site/','')
+                    @postfilters[templateindex].prevURL = @filelist[i - 1][1].gsub('site/','')
                 else
                     @postfilters[templateindex].prevURL = "#"
                 end
@@ -180,7 +186,7 @@ task :html do
 
                 # create directory if necessary
                 if not FileTest::directory?(File.dirname(dest))
-                    FileUtils.mkdir_p(File.dirname(dest)) 
+                    FileUtils.mkdir_p(File.dirname(dest))
                 end
 
                 # write the .tex file
@@ -213,10 +219,10 @@ task :compile do
 
         attr_accessor :filelist
 
-        # take a string from kramdown 
+        # take a string from kramdown
         # returns LaTeX after filter
         def compile_text(tmp)
-            @prefilters.each do |f| 
+            @prefilters.each do |f|
                 tmp=f.run( tmp )
             end
 
@@ -234,7 +240,7 @@ task :compile do
             template.close
 
             txt.sub!( /%%#INCLUDES#%%/ ) do
-                    @filelist.map do |source,dest| 
+                    @filelist.map do |source,dest|
                         "\\include{#{dest.sub(/^tmp\//,'').sub(/.tex/,'')}}"
                     end.join("\n")
                 end.
@@ -274,7 +280,7 @@ task :compile do
 
                 # create directory if necessary
                 if not FileTest::directory?(File.dirname(dest))
-                    FileUtils.mkdir_p(File.dirname(dest)) 
+                    FileUtils.mkdir_p(File.dirname(dest))
                 end
 
                 # write the .tex file

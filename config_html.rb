@@ -8,6 +8,9 @@
 # file name
 @pdfname="cv"
 
+# the subsite to include it in
+@subsite="resume"
+
 # LaTeX headers (before \begin{document})
 @html_headers=''
 

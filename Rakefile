@@ -221,7 +221,7 @@ task :compile do
             end
 
             # compile to latex
-            tmp=Kramdown::Document.new(tmp, :latex_headers => %w(chapter section subsection paragraph subparagraph subsubparagraph)).to_latex
+            tmp=Kramdown::Document.new(tmp, :latex_headers => %w(chapter section* subsection* paragraph subparagraph subsubparagraph)).to_latex
 
             # post filters
             @postfilters.each{ |f| tmp=f.run(tmp) }

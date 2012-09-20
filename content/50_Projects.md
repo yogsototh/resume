@@ -32,9 +32,9 @@ Made a protocol similar to [TOR](http://www.torproject.org) for student.
   This application is just done _[for teh lulz](http://cache.ohinternet.com/images/thumb/f/fa/4tehlulz.jpg/618px-4tehlulz.jpg)_. 
   Not related to the Airfrance work. But still pleasant.  
   _Javascript(Prototype.js, Scriptaculous), CSS, PHP/MySQL, Google Talk_
-- %metapost package to draw Automata _2003 &rarr; 2004_  
+- [%metapost package](https://github.com/yogsototh/metautomata) to draw Automata _2003 &rarr; 2004_  
   <em>%metapost</em> 
-- Mac OS X Screensavers _2003 &rarr; 2004_  
+- Mac OS X Screensavers ([YClock](https://github.com/yogsototh/YClock) _&_ YAquaBubbles) _2003 &rarr; 2004_  
   _Objective-C,Quartz Composer,Cocoa_
 
 You could find even more information by looking at:

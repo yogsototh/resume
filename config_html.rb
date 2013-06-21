@@ -9,7 +9,7 @@
 @pdfname="cv"
 
 # the subsite to include it in
-@subsite="resume"
+@subsite=""
 
 # LaTeX headers (before \begin{document})
 @html_headers=''

@@ -177,10 +177,10 @@ task :html do
                 else
                     @postfilters[templateindex].nextURL = "#"
                 end
-                if (i-1)>=0
+                if (i-2)>=0
                     @postfilters[templateindex].prevURL = @filelist[i - 1][1].gsub('site/','')
                 else
-                    @postfilters[templateindex].prevURL = "#"
+                    @postfilters[templateindex].prevURL = "/"
                 end
                 text=compile_text( File.new(source,"r").read )
 

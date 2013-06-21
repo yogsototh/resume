@@ -30,20 +30,20 @@ class HTMLTemplate
         end.gsub(/SUBSITEPREFIX\//) do
             @prefix
         end.gsub(%{/NEXT_URL/}) do
-            @prefix+@nextURL
+            @nextURL
         end.gsub(%{<!-- NEXT_LINK -->}) do
             if @nextURL == '#'
                 %{<a class="disable" href="#{@nextURL}">next&nbsp;<span class="nicer">»</span></a>}
             else
-                %{<a href="#{@prefix}#{@nextURL}">next&nbsp;<span class="nicer">»</span></a>}
+                %{<a href="#{@nextURL}">next&nbsp;<span class="nicer">»</span></a>}
             end
         end.gsub(%{/PREV_URL/}) do
-            @prefix+@prevURL
+            @prevURL
         end.gsub(%{<!-- PREV_LINK -->}) do
             if @prevURL == '#'
                 %{<a class="disable" href="#{@prevURL}">prev&nbsp;<span class="nicer">»</span></a>}
             else
-                %{<a href="#{@prefix}#{@prevURL}"><span class="nicer">«</span>&nbsp;prev</a>}
+                %{<a href="#{@prevURL}"><span class="nicer">«</span>&nbsp;prev</a>}
             end
         end.gsub(%{/HOME_URL/}) do
             @prefix+@homeURL

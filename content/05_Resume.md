@@ -3,14 +3,15 @@
 |-----------|
 | mail | <yann.esposito@gmail.com> |
 | port | (+33)650845271 |
-| address | Bât K4, Les Pugets |
-| | 101, rue Jean Giono
+| address | Bât 9, Résidence Saint Marc |
+| | 691, avenue Jean Aicard
 | |06700, Saint Laurent du Var |
 
 ### Professional Background
 
+| _2013&nbsp;&rarr;_                | Full Stack Engineer &amp; Machine Learning Scientist at Vigiglobe, <span class="detail">Sophia Antipolis, France</span>                         | 
 | _2010&nbsp;&rarr;_                | Co-Founder of GridPocket, <span class="detail">Sophia Antipolis, France</span>                         | 
-| _2007&nbsp;&rarr;_                | AirFrance, <span class="detail">Sophia Antipolis, France</span>                                        | 
+| _2007&nbsp;2013_                | AirFrance, <span class="detail">Sophia Antipolis, France</span>                                        | 
 | _10/2006&nbsp;&rarr;&nbsp;3/2007_ | Post Ph.D., Hubert Curien Laboratory, <span class="detail">St-Etienne, France</span>                   | 
 | _10/2004&nbsp;&rarr;&nbsp;9/2006_ | ATER (College Degree Teach _&_ Research), <span class="detail">Marseille, France</span>                |
 | _10/2001&nbsp;&rarr;&nbsp;9/2004_ | University Monitor (College Degree Teach _&_ Research), <span class="detail">Marseille, France</span>  |

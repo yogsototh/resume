@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require 'date'
 class HTMLTemplate
     attr_accessor :template

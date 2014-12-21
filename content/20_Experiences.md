@@ -1,5 +1,21 @@
 # Jobs
 
+## Machine Learning Scientist _&_ Software Engineer for Vigiglobe _2013 &rarr;_  
+
+Sophia Antipolis, France
+
+Product
+: Scalable Real Time Social Media Analytics
+: Sentiment Analysis
+: Many client side web applications (Angular.js & reagent)
+
+Role
+: Machine Learning Scientist (fast sentiment analysis, learning protocols, etc..)
+: Full stack engineer (backend to frontend  architecture)
+
+Technical Keywords:
+: Clojure, Haskell, node.js, reagent, Angular.js, Stream computing
+
 ## Co-Founder _&_ freelance for GridPocket _2010 &rarr;_ 
 
 Sophia Antipolis, France

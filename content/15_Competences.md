@@ -1,34 +1,28 @@
 # Technical Competences
 
-Mac:
-: __Objective-C Cocoa (Mac &amp; iOS)__, Dahsboard widget, Quartz Composer
-
-Mainstream Languages:
-: __Javascript__, __C++__, __Ruby__, Perl, Java, Python, PHP
-
 Languages:
-: __Haskell__, scheme, C, camL
-
-Data Mining Tools:
-: __weka__, __Entreprise Miner (SAS)__, SVMlight
+: __Haskell__, __Clojure__, __Javascript__, scheme, C, camL, C++, Ruby, Perl, Java, Python, PHP
 
 Web frontend:
-: HTML, CSS, javascript (jQuery, coffeescript)
+: __elm__, __Clojurescript__, __Reagent__, __Angular.js__, __sass__, etc...
 
 Web framework:
-: Yesod (Haskell web framework), Cappuccino, `rack`
-
-`Unix`:
-: Shell scripts (zsh, bash), awk, %latex, ConTeXt, %metapost
-
-IDE:
-: XCode, Unix environment (vim)
-
-Version Control Tools:
-: __git__, Bazaar (DCVS), subversion (svn), CVS
+: __compojure-api__, __Yesod__ (Haskell web framework), actionhero (node.js)
 
 Programming environments:
 : Mac OS X, Unix/Linux (Solaris, Ubuntu, Debian), Windows&nbsp;XP
 
-UI:
-: Cocoa, Java Swing
+Data Mining Tools:
+: __weka__, SVMlight
+
+Stream Computing:
+: storm (with clojure)
+
+`Unix`:
+: Shell scripts (zsh, bash), awk, %latex, ConTeXt, %metapost
+
+Version Control Tools:
+: __git__, Bazaar (DCVS), subversion (svn), CVS
+
+Mac:
+: __Objective-C Cocoa (Mac &amp; iOS)__, Dahsboard widget, Quartz Composer

@@ -13,11 +13,11 @@ Furthermore I love web programming and design.
   I developed a scientific application in Java/applet/JWS that should be used by biologists.
   The code has been updated a bit since my 6 month post Ph.D[^3].
 
-- I currently work in the web industry for Airfrance.
-  My work environment is quite heterogeneous.
+- I worked in the web industry for Airfrance.
+  My work environment was quite heterogeneous.
   From shell scripting to manage huge amount of data, web design
   and production environment.
-  I mostly worked for the B2B website.
+  I mostly worked for the B2B Airfrance website.
 
 - I worked for GridPocket (I am a co-founder).
   This is a French startup specialized in Electric Grid.
@@ -31,6 +31,12 @@ Furthermore I love web programming and design.
 
 - I am the author of some quite popular blog posts[^5].
 
+- Currently I am working for Vigiglobe. I do Machine Learning and Software engineering.
+  I worked first with `node.js` then we upgraded our stack to Clojure, Haskell &amp; Mesos.
+  I worked on making a real time analytics of social media content.
+  We do real time sentiment analysis. We had to make a scalable architecture
+  able to absorb and treat (Aggregation &amp; Machine Learning) thousands of messages per second.[^7]
+
 For an almost exhaustive list of my projects, you could check my
 github account: [github.com/yogsototh](https://github.com/yogsototh)
 
@@ -41,3 +47,5 @@ github account: [github.com/yogsototh](https://github.com/yogsototh)
 [^4]: <http://ypassword.espozito.com>
 [^5]: <http://yannesposito.com/Scratch/en/blog/>
 [^6]: Sorry the code is private I can't show it :(.
+[^7]: <http://vigiglobe.com>
+

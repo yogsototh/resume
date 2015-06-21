@@ -1,7 +1,7 @@
 # Public things done
 
 - [Vigiglobe](http://vigiglobe.com) architecture able to analyze thousands of social media messages in realtime. In particular, real time Machine Learning &amp; Statistics.
-- [YPassword](http://ypassword.espozito.com) iPhone application
+- YPassword iOS application
 - Gridpocket web services (from conception to realization, works in correlation with a mobile app)
 - [DEES](https://github.com/yogsototh/DEES): a 10.000 line C++ command line program. This program implement most [HMM](http://en.wikipedia.org/wiki/Hidden_Markov_model) standard algorithms _&_ inference algorithms.
 - [SeDiL](http://labh-curien.univ-st-etienne.fr/SEDiL/): a Java application using Swing UI. The goal is to provide biologist an easy way to use an algorithm that generate Similarity Matrices for strings but also for Tree structures. Most graphics was done by me, including the drawing of trees. I didn't used a library for that purpose.

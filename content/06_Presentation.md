@@ -3,6 +3,14 @@
 I am French with a Post Ph.D in Machine Learning[^10].
 Furthermore I love web programming and design.
 
+I am currently working for Vigiglobe.
+The first six months I worked with `node.js` (API/MongoDB/Web).
+Then we upgraded our stack to _Clojure, Haskell, Mesos, Kafka, Druid_, etc...
+At that time we were two to make all technical decisions.
+In the end we made a real time analytics of social media content on a scalable architecture.
+Actually our architecture is able to manage (Aggregation &amp; Machine Learning) thousands of messages per second.[^7]
+In particular, I've written an Haskell twitter stream absorber able to handle thousands of tweets per seconds. And I coded myself a real time sentiment analysis module taking algebraic properties into account to optimize its efficiency.
+
 - During my Ph.D. I made a C++ program (github[^1] and resume[^2]).
   I coded most of standard HMM learning algorithms.
   I developed an algorithm which I invented during my Ph.D. which use some operational optimization algorithm.
@@ -17,25 +25,14 @@ Furthermore I love web programming and design.
   My work environment was quite heterogeneous.
   From shell scripting to manage huge amount of data, web design
   and production environment.
-  I mostly worked for the B2B Airfrance website.
 
 - I worked for GridPocket (I am a co-founder).
   This is a French startup specialized in Electric Grid.
   I created a private[^6] web application.
-  One of the goal reached was to follow you electricity consumption in real time.
-  It needed many different parts, from creating a Linux box to receive the signal
-  to writing the server which handled the requests and serve the REST API.
-  And also write a full javascript client that displayed nicely the informations.
 
 - I've also written an iOS application to manage passwords[^4].
 
 - I am the author of some quite popular blog posts[^5].
-
-- Currently I am working for Vigiglobe. I do Machine Learning and Software engineering.
-  I worked first with `node.js` then we upgraded our stack to Clojure, Haskell &amp; Mesos.
-  I worked on making a real time analytics of social media content.
-  We do real time sentiment analysis. We had to make a scalable architecture
-  able to absorb and treat (Aggregation &amp; Machine Learning) thousands of messages per second.[^7]
 
 For an almost exhaustive list of my projects, you could check my
 github account: [github.com/yogsototh](https://github.com/yogsototh)
